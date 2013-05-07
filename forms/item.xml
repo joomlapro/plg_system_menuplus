@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="params">
+		<fieldset name="menu-options">
+			<field name="menu_icon" type="text" label="PLG_CONTENT_MENUPLUS_FIELD_MENU_ICON_LABEL" description="PLG_CONTENT_MENUPLUS_FIELD_MENU_ICON_DESC" />
+		</fieldset>
+	</fields>
+</form>
