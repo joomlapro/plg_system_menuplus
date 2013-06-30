@@ -18,6 +18,10 @@
 	<languages>
 		<language tag="pt-BR">language/pt-BR/pt-BR.plg_content_menuplus.ini</language>
 		<language tag="pt-BR">language/pt-BR/pt-BR.plg_content_menuplus.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_menuplus.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_menuplus.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.plg_content_menuplus.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.plg_content_menuplus.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
