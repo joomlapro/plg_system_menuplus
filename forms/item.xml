@@ -4,6 +4,7 @@
 	<fields name="params">
 		<fieldset name="menu-options">
 			<field name="menu_icon" type="text" label="PLG_CONTENT_MENUPLUS_FIELD_MENU_ICON_LABEL" description="PLG_CONTENT_MENUPLUS_FIELD_MENU_ICON_DESC" />
+			<field name="menu_imageclass" type="text" label="PLG_CONTENT_MENUPLUS_FIELD_MENU_IMAGE_LABEL" description="PLG_CONTENT_MENUPLUS_FIELD_MENU_IMAGE_DESC" />
 		</fieldset>
 	</fields>
 </form>
