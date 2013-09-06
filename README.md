@@ -5,9 +5,9 @@ Add more features to item menu for Joomla! 3.x.
 
 ## Authors
 
-* [Bruno Batista](bruno@atomtech.com.br)
-* [Júlio Pontes](juliopfneto@gmail.com)
-* [Oleg Kazban](cyberixny@gmail.com)
+* [Bruno Batista](https://github.com/brunobatista)
+* [Júlio Pontes](https://github.com/juliopontes)
+* [Oleg Kazban](https://github.com/Cyberixxx)
 
 ## License
 
