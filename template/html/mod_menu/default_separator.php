@@ -25,4 +25,9 @@ else
 	$linktype = $item->title;
 }
 
+if ($menu_icon = $item->params->get('menu_icon'))
+{
+	$linktype = '<i class="' . $menu_icon . '"></i> ' . $linktype;
+}
+
 ?><span class="separator"<?php echo $title; ?>><?php echo $linktype; ?></span>

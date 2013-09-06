@@ -26,6 +26,11 @@ else
 	$linktype = $item->title;
 }
 
+if ($menu_icon = $item->params->get('menu_icon'))
+{
+	$linktype = '<i class="' . $menu_icon . '"></i> ' . $linktype;
+}
+
 $flink = $item->flink;
 $flink = JFilterOutput::ampReplace(htmlspecialchars($flink));
 
