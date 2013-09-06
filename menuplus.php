@@ -1,22 +1,25 @@
 <?php
 /**
  * @package     Joomla.Plugin
- * @subpackage  Content.Menuplus
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
+ * @subpackage  System.Menuplus
+ *
+ * @author      Bruno Batista <bruno@atomtech.com.br>
+ * @copyright   Copyright (C) 2013 AtomTech IT Services. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
-defined('JPATH_BASE') or die;
+defined('_JEXEC') or die;
 
 /**
  * Joomla Menuplus plugin.
  *
  * @package     Joomla.Plugin
- * @subpackage  Content.Menuplus
+ * @subpackage  System.Menuplus
+ * @author      Bruno Batista <bruno@atomtech.com.br>
  * @since       3.1
  */
-class PlgContentMenuplus extends JPlugin
+class PlgSystemMenuplus extends JPlugin
 {
 	/**
 	 * Constructor.
@@ -56,6 +59,7 @@ class PlgContentMenuplus extends JPlugin
 		if (!($form instanceof JForm))
 		{
 			$this->_subject->setError('JERROR_NOT_A_FORM');
+
 			return false;
 		}
 
